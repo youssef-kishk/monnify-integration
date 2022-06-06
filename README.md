@@ -64,8 +64,8 @@ This GitHub repo is a playground to practice integration with Monnify, A leading
 ## Build and Run
 - Clone the repo.
 - Make sure you have JDK 11 installed
-- Define your ENV_VARIABLES in the IDE configurations:
-  - Ex: In IntelliJ IDEA open (Run -> Edit Configurations -> Envirnoment Variables), set your varables as comma separated as the following:
+- Define your Envirnoment Variables in the IDE configurations:
+  - Ex: In IntelliJ IDEA open (Run -> Edit Configurations -> Envirnoment Variables), set your variables as comma separated values as the following:
     ```yaml
     {
       MONNIFY_API_KEY=<API_KEY>;MONNIFY_SECRET_KEY=<SECRET_KEY>;MONNIFY_BASE_URL=<BASE_URL>;MONNIFY_CONTRACT_CODE=<CONTRACT_CODE>
@@ -74,8 +74,9 @@ This GitHub repo is a playground to practice integration with Monnify, A leading
  - Build and run the project, by default it runs on port 8080
 
 ### OPTIONAL: Run using docker
+- In case you prefer using docker so:
 - Update envirnoment variables in docker compose file.
-- Make sure the project is build and .jar file is generated
+- Make sure the project is built and .jar file is generated in target directory.
   ```
   mvn clean install
   ```
@@ -88,7 +89,7 @@ This GitHub repo is a playground to practice integration with Monnify, A leading
 
 ## To be done:
 - Authentecation
-- Handle Monnify'sWeb hooks
+- Handle Monnify's Web hooks
 - Unit tests
 - Refund APIs
 - Reserved account creation per user
