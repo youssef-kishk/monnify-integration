@@ -1,0 +1,19 @@
+version: '3.7'
+
+services:
+  api:
+    container_name: "monnify_api"
+    build:
+      context: .
+      dockerfile: Dockerfile
+    environment:
+      MONNIFY_API_KEY: <API_KEY>
+      MONNIFY_SECRET_KEY: <SECRET_KEY>
+      MONNIFY_BASE_URL: <BASE_URL>
+      MONNIFY_CONTRACT_CODE: <CONTRACT_CODE>
+    ports:
+      - "8080:8080"
+
+
+networks:
+  default:
