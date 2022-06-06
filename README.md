@@ -89,8 +89,8 @@ This GitHub repo is a playground to practice Spring Boot and integration with Mo
 
 ## To be done:
 - Authentecation
+- Refund APIs
 - Handle Monnify's Web hooks
 - Unit tests
-- Refund APIs
 - Reserved account creation per user
 - Store transactions in a DB from our side
