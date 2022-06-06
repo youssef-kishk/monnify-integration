@@ -1,5 +1,5 @@
 # Monnify Integration
-This GitHub repo is a playground to practice Spring Boot and integration with Monnify, A leading payment technology that powers seamless transactions for businesses through omnichannel platforms.
+This GitHub repo is a playground to practice Spring Boot and integration with Monnify.
 
 ## Introduction
 - [Monnify](https://monnify.com/) is a payment gateway for businesses to accept payments from customers, either on a recurring or one-time basis. Monnify offers an easier, faster and cheaper way for businesses to get paid on their web and mobile applications using convenient payment methods for customers with the highest success rates obtainable in Nigeria.
