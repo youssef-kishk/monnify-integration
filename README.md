@@ -17,7 +17,7 @@ This GitHub repo is a playground to practice Spring Boot and integration with Mo
 - Get started with Monnify by [creating an account](https://app.monnify.com/create-account)
 - Get your **API Key**, **Secret Key**, **Base URL** and **CONTRACT CODE** from [devloper section](https://app.monnify.com/developer)
 - Create a reserved account to test invoices from [reserved account section](https://app.monnify.com/reserved-accounts) and keep the account reference (we will use it later).
-  - Note: We need to create a reserved account as the current implemented APIs don't handle account creations, but Monnify provide the [API](https://teamapt.atlassian.net/wiki/spaces/MON/pages/212008993/Reserved+Account+Invoicing) for handling that.
+  - Note: We need to create a reserved account manually as the current implemented APIs don't handle reserved accounts creation yet, but Monnify provide the [API](https://teamapt.atlassian.net/wiki/spaces/MON/pages/212008993/Reserved+Account+Invoicing) for handling that.
 - Now we are ready to test our APIs.
 - We can track APIs actions from our reserved account page in Monnify's dashboard.
 
